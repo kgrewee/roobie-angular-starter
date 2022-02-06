@@ -31,9 +31,10 @@
                             "src/assets"
                         ],
                         "styles": [
-                            "src/styles.scss"
+                            "src/styles.scss",
+                            "./node_modules/roobie/dist/roobie.min.css"
                         ],
-                        "scripts": ["./node_modules/roobie/roobie.min.js"]
+                        "scripts": ["./node_modules/roobie/dist/roobie.min.js"]
                     },
                     "configurations": {
                         "production": {
